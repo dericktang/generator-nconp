@@ -1,0 +1,29 @@
+{
+    "name": "<%= userOptions.name %>",
+    "version": "1.0.0",
+    "description": "<%= userOptions.description %>",
+    "main": "index.js",
+    "author": "<%= userOptions.author %>",
+    "repository": {
+        "type": "git",
+        "url": "<%= userOptions.repo %>"
+    },
+    "keywords": [
+        "plugin",
+        "def"
+    ],
+    "license": "<%= userOptions.license %>",
+    "readmeFilename": "README.md",
+    "dependencies": {
+	    "debug": "2.3.3",
+		"run-sequence":"1.2.2",
+		"<%= userOptions.nconp %>":"~0.0.1"
+    },
+    "devDependencies": {
+        "gulp": "~3.8.11",
+        "gulp-less": "~1.2.0",
+        "gulp-sourcemaps": "~1.5.1",
+		"expect.js": "0.3.1",
+        "mocha": "3.2.0"
+    }
+}
